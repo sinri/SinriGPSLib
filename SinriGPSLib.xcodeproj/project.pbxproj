@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FA8E36419AA1F6D004784D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA8E36319AA1F6D004784D2 /* Foundation.framework */; };
+		2FA8E36619AA1F6E004784D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA8E36519AA1F6E004784D2 /* CoreGraphics.framework */; };
+		2FA8E36819AA1F6E004784D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA8E36719AA1F6E004784D2 /* UIKit.framework */; };
+		2FA8E36E19AA1F6E004784D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FA8E36C19AA1F6E004784D2 /* InfoPlist.strings */; };
+		2FA8E37019AA1F6E004784D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8E36F19AA1F6E004784D2 /* main.m */; };
+		2FA8E37419AA1F6E004784D2 /* SGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8E37319AA1F6E004784D2 /* SGAppDelegate.m */; };
+		2FA8E37619AA1F6E004784D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA8E37519AA1F6E004784D2 /* Images.xcassets */; };
+		2FA8E37D19AA1F6E004784D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA8E37C19AA1F6E004784D2 /* XCTest.framework */; };
+		2FA8E37E19AA1F6E004784D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA8E36319AA1F6D004784D2 /* Foundation.framework */; };
+		2FA8E37F19AA1F6E004784D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA8E36719AA1F6E004784D2 /* UIKit.framework */; };
+		2FA8E38719AA1F6E004784D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FA8E38519AA1F6E004784D2 /* InfoPlist.strings */; };
+		2FA8E38919AA1F6E004784D2 /* SinriGPSLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8E38819AA1F6E004784D2 /* SinriGPSLibTests.m */; };
+		2FA8E39319AA23F9004784D2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA8E39219AA23F9004784D2 /* CoreLocation.framework */; };
+		2FA8E39619AA2462004784D2 /* SGTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8E39519AA2462004784D2 /* SGTestViewController.m */; };
+		2FA8E39919AA32B9004784D2 /* SGGPSLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8E39819AA32B9004784D2 /* SGGPSLib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FA8E38019AA1F6E004784D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA8E35819AA1F6D004784D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA8E35F19AA1F6D004784D2;
+			remoteInfo = SinriGPSLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FA8E36019AA1F6D004784D2 /* SinriGPSLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinriGPSLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA8E36319AA1F6D004784D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FA8E36519AA1F6E004784D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FA8E36719AA1F6E004784D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FA8E36B19AA1F6E004784D2 /* SinriGPSLib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SinriGPSLib-Info.plist"; sourceTree = "<group>"; };
+		2FA8E36D19AA1F6E004784D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FA8E36F19AA1F6E004784D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FA8E37119AA1F6E004784D2 /* SinriGPSLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SinriGPSLib-Prefix.pch"; sourceTree = "<group>"; };
+		2FA8E37219AA1F6E004784D2 /* SGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGAppDelegate.h; sourceTree = "<group>"; };
+		2FA8E37319AA1F6E004784D2 /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
+		2FA8E37519AA1F6E004784D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FA8E37B19AA1F6E004784D2 /* SinriGPSLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinriGPSLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA8E37C19AA1F6E004784D2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2FA8E38419AA1F6E004784D2 /* SinriGPSLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SinriGPSLibTests-Info.plist"; sourceTree = "<group>"; };
+		2FA8E38619AA1F6E004784D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FA8E38819AA1F6E004784D2 /* SinriGPSLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinriGPSLibTests.m; sourceTree = "<group>"; };
+		2FA8E39219AA23F9004784D2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2FA8E39419AA2462004784D2 /* SGTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGTestViewController.h; path = test/SGTestViewController.h; sourceTree = "<group>"; };
+		2FA8E39519AA2462004784D2 /* SGTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGTestViewController.m; path = test/SGTestViewController.m; sourceTree = "<group>"; };
+		2FA8E39719AA32B9004784D2 /* SGGPSLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGGPSLib.h; path = gpslib/SGGPSLib.h; sourceTree = "<group>"; };
+		2FA8E39819AA32B9004784D2 /* SGGPSLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGGPSLib.m; path = gpslib/SGGPSLib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FA8E35D19AA1F6D004784D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA8E39319AA23F9004784D2 /* CoreLocation.framework in Frameworks */,
+				2FA8E36619AA1F6E004784D2 /* CoreGraphics.framework in Frameworks */,
+				2FA8E36819AA1F6E004784D2 /* UIKit.framework in Frameworks */,
+				2FA8E36419AA1F6D004784D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA8E37819AA1F6E004784D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA8E37D19AA1F6E004784D2 /* XCTest.framework in Frameworks */,
+				2FA8E37F19AA1F6E004784D2 /* UIKit.framework in Frameworks */,
+				2FA8E37E19AA1F6E004784D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FA8E35719AA1F6D004784D2 = {
+			isa = PBXGroup;
+			children = (
+				2FA8E36919AA1F6E004784D2 /* SinriGPSLib */,
+				2FA8E38219AA1F6E004784D2 /* SinriGPSLibTests */,
+				2FA8E36219AA1F6D004784D2 /* Frameworks */,
+				2FA8E36119AA1F6D004784D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FA8E36119AA1F6D004784D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FA8E36019AA1F6D004784D2 /* SinriGPSLib.app */,
+				2FA8E37B19AA1F6E004784D2 /* SinriGPSLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FA8E36219AA1F6D004784D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FA8E39219AA23F9004784D2 /* CoreLocation.framework */,
+				2FA8E36319AA1F6D004784D2 /* Foundation.framework */,
+				2FA8E36519AA1F6E004784D2 /* CoreGraphics.framework */,
+				2FA8E36719AA1F6E004784D2 /* UIKit.framework */,
+				2FA8E37C19AA1F6E004784D2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FA8E36919AA1F6E004784D2 /* SinriGPSLib */ = {
+			isa = PBXGroup;
+			children = (
+				2FA8E37219AA1F6E004784D2 /* SGAppDelegate.h */,
+				2FA8E37319AA1F6E004784D2 /* SGAppDelegate.m */,
+				2FA8E37519AA1F6E004784D2 /* Images.xcassets */,
+				2FA8E36A19AA1F6E004784D2 /* Supporting Files */,
+				2FA8E39419AA2462004784D2 /* SGTestViewController.h */,
+				2FA8E39519AA2462004784D2 /* SGTestViewController.m */,
+				2FA8E39719AA32B9004784D2 /* SGGPSLib.h */,
+				2FA8E39819AA32B9004784D2 /* SGGPSLib.m */,
+			);
+			path = SinriGPSLib;
+			sourceTree = "<group>";
+		};
+		2FA8E36A19AA1F6E004784D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FA8E36B19AA1F6E004784D2 /* SinriGPSLib-Info.plist */,
+				2FA8E36C19AA1F6E004784D2 /* InfoPlist.strings */,
+				2FA8E36F19AA1F6E004784D2 /* main.m */,
+				2FA8E37119AA1F6E004784D2 /* SinriGPSLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FA8E38219AA1F6E004784D2 /* SinriGPSLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FA8E38819AA1F6E004784D2 /* SinriGPSLibTests.m */,
+				2FA8E38319AA1F6E004784D2 /* Supporting Files */,
+			);
+			path = SinriGPSLibTests;
+			sourceTree = "<group>";
+		};
+		2FA8E38319AA1F6E004784D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FA8E38419AA1F6E004784D2 /* SinriGPSLibTests-Info.plist */,
+				2FA8E38519AA1F6E004784D2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FA8E35F19AA1F6D004784D2 /* SinriGPSLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA8E38C19AA1F6E004784D2 /* Build configuration list for PBXNativeTarget "SinriGPSLib" */;
+			buildPhases = (
+				2FA8E35C19AA1F6D004784D2 /* Sources */,
+				2FA8E35D19AA1F6D004784D2 /* Frameworks */,
+				2FA8E35E19AA1F6D004784D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinriGPSLib;
+			productName = SinriGPSLib;
+			productReference = 2FA8E36019AA1F6D004784D2 /* SinriGPSLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FA8E37A19AA1F6E004784D2 /* SinriGPSLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA8E38F19AA1F6E004784D2 /* Build configuration list for PBXNativeTarget "SinriGPSLibTests" */;
+			buildPhases = (
+				2FA8E37719AA1F6E004784D2 /* Sources */,
+				2FA8E37819AA1F6E004784D2 /* Frameworks */,
+				2FA8E37919AA1F6E004784D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FA8E38119AA1F6E004784D2 /* PBXTargetDependency */,
+			);
+			name = SinriGPSLibTests;
+			productName = SinriGPSLibTests;
+			productReference = 2FA8E37B19AA1F6E004784D2 /* SinriGPSLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FA8E35819AA1F6D004784D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.sinri;
+				TargetAttributes = {
+					2FA8E37A19AA1F6E004784D2 = {
+						TestTargetID = 2FA8E35F19AA1F6D004784D2;
+					};
+				};
+			};
+			buildConfigurationList = 2FA8E35B19AA1F6D004784D2 /* Build configuration list for PBXProject "SinriGPSLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2FA8E35719AA1F6D004784D2;
+			productRefGroup = 2FA8E36119AA1F6D004784D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FA8E35F19AA1F6D004784D2 /* SinriGPSLib */,
+				2FA8E37A19AA1F6E004784D2 /* SinriGPSLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FA8E35E19AA1F6D004784D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA8E36E19AA1F6E004784D2 /* InfoPlist.strings in Resources */,
+				2FA8E37619AA1F6E004784D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA8E37919AA1F6E004784D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA8E38719AA1F6E004784D2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FA8E35C19AA1F6D004784D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA8E39919AA32B9004784D2 /* SGGPSLib.m in Sources */,
+				2FA8E37419AA1F6E004784D2 /* SGAppDelegate.m in Sources */,
+				2FA8E37019AA1F6E004784D2 /* main.m in Sources */,
+				2FA8E39619AA2462004784D2 /* SGTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA8E37719AA1F6E004784D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA8E38919AA1F6E004784D2 /* SinriGPSLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FA8E38119AA1F6E004784D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FA8E35F19AA1F6D004784D2 /* SinriGPSLib */;
+			targetProxy = 2FA8E38019AA1F6E004784D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FA8E36C19AA1F6E004784D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FA8E36D19AA1F6E004784D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2FA8E38519AA1F6E004784D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FA8E38619AA1F6E004784D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FA8E38A19AA1F6E004784D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FA8E38B19AA1F6E004784D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FA8E38D19AA1F6E004784D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinriGPSLib/SinriGPSLib-Prefix.pch";
+				INFOPLIST_FILE = "SinriGPSLib/SinriGPSLib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2FA8E38E19AA1F6E004784D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinriGPSLib/SinriGPSLib-Prefix.pch";
+				INFOPLIST_FILE = "SinriGPSLib/SinriGPSLib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2FA8E39019AA1F6E004784D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SinriGPSLib.app/SinriGPSLib";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinriGPSLib/SinriGPSLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SinriGPSLibTests/SinriGPSLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2FA8E39119AA1F6E004784D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SinriGPSLib.app/SinriGPSLib";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinriGPSLib/SinriGPSLib-Prefix.pch";
+				INFOPLIST_FILE = "SinriGPSLibTests/SinriGPSLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FA8E35B19AA1F6D004784D2 /* Build configuration list for PBXProject "SinriGPSLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA8E38A19AA1F6E004784D2 /* Debug */,
+				2FA8E38B19AA1F6E004784D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA8E38C19AA1F6E004784D2 /* Build configuration list for PBXNativeTarget "SinriGPSLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA8E38D19AA1F6E004784D2 /* Debug */,
+				2FA8E38E19AA1F6E004784D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FA8E38F19AA1F6E004784D2 /* Build configuration list for PBXNativeTarget "SinriGPSLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA8E39019AA1F6E004784D2 /* Debug */,
+				2FA8E39119AA1F6E004784D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FA8E35819AA1F6D004784D2 /* Project object */;
+}
